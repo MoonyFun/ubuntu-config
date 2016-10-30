@@ -10,6 +10,7 @@
 `sudo apt install shadowsocks-qt5`
 
 >**配置pac**
+
 >1. 安装pip 
 `sudo apt install python-pip`
 >2. 安装genpac 
@@ -22,6 +23,7 @@
 >格式如：file:///home/{user}/××××/autoproxy.pac 
 
 >**使用finalspeed加速人ss，需要java环境 (客户端配置，服务端略)**
+
 >1. `java -jar finalspeed_client.jar`
 
 >2. 配置finalspeed：设置宽带（正常的60%左右）---> 服务器ss地址 ---> 添加  ---> ss加速端口 ---> 本地端口随意（2000）
@@ -38,9 +40,13 @@
 >直接安装：`sudo apt install wine`
 
 >此为新版未能成功安装QQ
+
 >`sudo dpkg --add-architecture i386 `
+
 >`sudo add-apt-repository ppa:wine/wine-builds`
+
 >`sudo apt-get update`
+
 >`sudo apt-get install --install-recommends winehq-devel`
 
 $ winecfg

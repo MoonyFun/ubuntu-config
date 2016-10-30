@@ -126,6 +126,7 @@ sudo apt purge gnome-orca
 
 ####[安装 electronic-wechat](https://github.com/geeeeeeeeek/electronic-wechat/releases)
 
+####[安装 Typora md编辑器](http://www.typora.io/#linux)
 
 
 

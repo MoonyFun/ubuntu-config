@@ -10,10 +10,14 @@
 `sudo apt install shadowsocks-qt5`
 
 >**配置pac**
->1. 安装pip `sudo apt install python-pip`
->2. 安装genpac `pip install genpac`  升级 `pip install --upgrade genpac`   卸载  `pip uninstall genpac`
->3. 创建一个目录及文件 `touch user-rules.txt`
->4. 进入文件夹配置（先登录shadowsocks） `genpac -p "SOCKS5 127.0.0.1:1080" --gfwlist-proxy="SOCKS5 127.0.0.1:1080" --output="autoproxy.pac" --gfwlist-url="https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt" --user-rule-from="user-rules.txt"`
+>1. 安装pip 
+`sudo apt install python-pip`
+>2. 安装genpac 
+`pip install genpac`  升级 `pip install --upgrade genpac`   卸载  `pip uninstall genpac`
+>3. 创建一个目录及文件 
+`touch user-rules.txt`
+>4. 进入文件夹配置（先登录shadowsocks） 
+`genpac -p "SOCKS5 127.0.0.1:1080" --gfwlist-proxy="SOCKS5 127.0.0.1:1080" --output="autoproxy.pac" --gfwlist-url="https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt" --user-rule-from="user-rules.txt"`
 >5. 设置全局代理为自动 ， 配置URL选择**autoproxy.pac**文件，应用即可
 >格式如：file:///home/{user}/××××/autoproxy.pac 
 

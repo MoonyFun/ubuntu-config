@@ -130,6 +130,7 @@ sudo apt purge gnome-orca
 
 ####[安装 Typora md编辑器](http://www.typora.io/#linux)
 
+####[解决sublime无法输入中文办法](https://github.com/lyfeyaj/sublime-text-imfix)
 
 
 
